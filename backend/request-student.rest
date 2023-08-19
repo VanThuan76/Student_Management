@@ -1,0 +1,28 @@
+# GET http://localhost:3076/student
+GET http://localhost:3076/student/3
+# GET http://localhost:3076/studentByClass/1
+
+
+# POST http://localhost:3076/student
+# Content-Type: application/json
+
+# {
+#     "department_id": 3,
+#     "class_id": 2,
+#     "ma_sinh_vien": "15VVT",
+#     "name": "Thuan",
+#     "birthday": "07/06/1999"
+# }
+
+# PUT http://localhost:3076/student/3
+# Content-Type: application/json
+
+# {
+#     "department_id": 1,
+#     "class_id": 2,
+#     "ma_sinh_vien": "15VVT",
+#     "name": "Thuan Edit",
+#     "birthday": "07/06/1999"
+# }
+
+# DELETE http://localhost:3076/student/3

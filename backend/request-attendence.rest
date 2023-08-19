@@ -1,0 +1,26 @@
+# GET http://localhost:3076/attendence
+# GET http://localhost:3076/attendence/6
+GET http://localhost:3076/subjectByClass/1
+
+# POST http://localhost:3076/attendence
+# Content-Type: application/json
+
+# {
+#     "department_id": 2,
+#     "class_id": 2,
+#     "student_id": 2,
+#     "subject_id": 1,
+#     "number": "10"
+# }
+
+# PUT http://localhost:3076/attendence/2
+# Content-Type: application/json
+
+# {
+#     "student_id": 3,
+#     "ma_mon_hoc": "ADU213.2",
+#     "name": "Toan cao cap",
+#     "score": 5,
+# }
+
+# DELETE http://localhost:3076/attendence/2

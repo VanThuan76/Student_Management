@@ -1,0 +1,29 @@
+# POST http://localhost:3076/login
+# Content-Type: application/json
+
+# {
+#     "username": "admin",
+#     "password": "admin"
+# }
+
+# POST http://localhost:3076/change-password
+# Content-Type: application/json
+
+# {
+#     "user_id": 2,
+#     "old_password": "test",
+#     "new_password": "test123"
+# }
+
+# GET http://localhost:3076/account
+
+# POST http://localhost:3076/account
+# Content-Type: application/json
+
+# {
+#     "username": "kiemtra",
+#     "password": "kiemtra"
+# }
+
+# GET http://localhost:3076/account/2
+# DELETE http://localhost:3076/account/3

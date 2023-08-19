@@ -1,0 +1,25 @@
+GET http://localhost:3076/subject
+# GET http://localhost:3076/subject/1
+
+# POST http://localhost:3076/subject
+# Content-Type: application/json
+
+# {
+#     "department_id": 5,
+#     "class_id": 1,
+#     "student_id": 3,
+#     "ma_mon_hoc": "ADU213.2",
+#     "name": "Toan cao cap"
+# }
+
+# PUT http://localhost:3076/subject/2
+# Content-Type: application/json
+
+# {
+#     "student_id": 3,
+#     "ma_mon_hoc": "ADU213.2",
+#     "name": "Toan cao cap",
+#     "score": 5,
+# }
+
+# DELETE http://localhost:3076/subject/2

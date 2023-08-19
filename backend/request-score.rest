@@ -1,0 +1,26 @@
+GET http://localhost:3076/score
+# GET http://localhost:3076/score/1
+
+# POST http://localhost:3076/score
+# Content-Type: application/json
+
+# {
+#     "department_id": 1,
+#     "class_id": 1,
+#     "student_id": 1,
+#     "subject_id": 1,
+#     "score": 10
+# }
+
+# PUT http://localhost:3076/score/2
+# Content-Type: application/json
+
+# {
+#     "department_id": 5,
+#     "class_id": 1,
+#     "student_id": 3,
+#     "subject_id": "ADU213.2",
+#     "score": "Toan cao cap"
+# }
+
+# DELETE http://localhost:3076/score/2

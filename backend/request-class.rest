@@ -1,0 +1,24 @@
+# GET http://localhost:3076/class
+# GET http://localhost:3076/class/2
+# GET http://localhost:3076/classByDepartment/1
+
+
+# POST http://localhost:3076/class
+# Content-Type: application/json
+
+# {
+#     "department_id": 3,
+#     "ma_lop_hoc": "15TTKT",
+#     "name": "Tài chính kế toán"
+# }
+
+# PUT http://localhost:3076/class/3
+# Content-Type: application/json
+
+# {
+#     "department_id": 1,
+#     "ma_lop_hoc": "15TTKT",
+#     "name": "Tên lớp học 3 thay đổi"
+# }
+
+# DELETE http://localhost:3076/class/3
